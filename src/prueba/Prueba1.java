@@ -28,10 +28,14 @@ public class Prueba1 {
         double promedioCompras = totalCompras / 3;
 
         // Mostrar resultados
-        System.out.println("\n--- RESUMEN DE COMPRAS ---");
+        System.out.println("\n==============================");
+        System.out.println("       RESUMEN DE COMPRAS     ");
+        System.out.println("==============================");
         System.out.println("Cliente: " + nombre);
         System.out.println("Total de compras: S/ " + totalCompras);
         System.out.println("Promedio de compras: S/ " + promedioCompras);
+        System.out.println("==============================");
+        System.out.println("¡Gracias por su compra!");
       
         
         
